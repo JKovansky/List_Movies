@@ -12,6 +12,12 @@
         <title>Watch</title>
 
         <link rel="stylesheet" href="./styles.css">
+        
+        <!-- Link Swiper's CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
 
     </head>
     <body>
@@ -28,32 +34,36 @@
                 <div>
                     <h2>Lista de Fimes</h2>
                     <p>Filmes que assisti recentemente</p>
+                    
+                    <div class="swiper mySwiper">
 
-                    <ul class="filmes-lists">
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt10648342/?ref_=vp_vi_tt">
-                                <img src="https://m.media-amazon.com/images/M/MV5BYWFmYjI3M2YtMzE1Zi00NDcwLWE5NGYtYjk3MzNhM2NlZTYwXkEyXkFqcGdeQXVyMTQ3MjQ4Nzc4.jpg" alt="Imagem do filme Thor amor e trovão">
-                            </a>
-                        </li>
+                        <ul class="filmes-lists swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt10648342/?ref_=vp_vi_tt">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BYWFmYjI3M2YtMzE1Zi00NDcwLWE5NGYtYjk3MzNhM2NlZTYwXkEyXkFqcGdeQXVyMTQ3MjQ4Nzc4.jpg" alt="Imagem do filme Thor amor e trovão">
+                                </a>
+                            </li>
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt11866324/?ref_=vp_vi_tt">
-                                <img src="https://m.media-amazon.com/images/M/MV5BMDBlMDYxMDktOTUxMS00MjcxLWE2YjQtNjNhMjNmN2Y3ZDA1XkEyXkFqcGdeQXVyMTM1MTE1NDMx.jpg" alt="Imagem do filme O Predador: A caçada">
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt11866324/?ref_=vp_vi_tt">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMDBlMDYxMDktOTUxMS00MjcxLWE2YjQtNjNhMjNmN2Y3ZDA1XkEyXkFqcGdeQXVyMTM1MTE1NDMx.jpg" alt="Imagem do filme O Predador: A caçada">
+                                </a>
+                            </li class="swiper-slide">
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt11138512/?ref_=nv_sr_srsg_0">
-                                <img src="https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@.jpg" alt="Imagem do filme O homem do norte">
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt11138512/?ref_=nv_sr_srsg_0">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@.jpg" alt="Imagem do filme O homem do norte">
+                                </a>
+                            </li>
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt8041270/?ref_=nv_sr_srsg_0">
-                                <img src="https://m.media-amazon.com/images/M/MV5BMmE0NDlmYjAtYzg3Ny00NmYwLTg5NjktMjY4MmNjM2Y2ZjU5XkEyXkFqcGdeQXVyMjAwNzczNTU@.jpg" alt="Imagem do filme Jurassic World Domínio">
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt8041270/?ref_=nv_sr_srsg_0">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMmE0NDlmYjAtYzg3Ny00NmYwLTg5NjktMjY4MmNjM2Y2ZjU5XkEyXkFqcGdeQXVyMjAwNzczNTU@.jpg" alt="Imagem do filme Jurassic World Domínio">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>    
                 </div>
             </section>
 
@@ -62,31 +72,34 @@
                     <h2>Lista de próximos filmes</h2>
                     <p>Filmes para assistir</p>
 
-                    <ul class="filmes-watch">
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt13443470/?ref_=rg_mv_desc">
-                                <img src="https://m.media-amazon.com/images/M/MV5BZjZmN2IzYWMtZWI4YS00MGE1LWEyMzYtMTU5MDhjZWVmY2U5XkEyXkFqcGdeQXVyMTA1OTcyNDQ4.jpg" alt="Imagem do série Wednesday">
-                            </a>
-                        </li>
+                    <div class="swiper mySwiper">   
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt12590266/?ref_=hm_fanfav_tt_i_8_pd_fp1">
-                                <img src="https://m.media-amazon.com/images/M/MV5BMGI5NmI0ZjQtMGRkNC00ZGMzLTllNGYtZDUzYmQ2OWMzN2Y5XkEyXkFqcGdeQXVyMTA3MTI2ODc5.jpg" alt="Imagem do anime Cyberpunk: Mercenários">
-                            </a>
-                        </li>
+                        <ul class="filmes-watch swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt13443470/?ref_=rg_mv_desc">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BZjZmN2IzYWMtZWI4YS00MGE1LWEyMzYtMTU5MDhjZWVmY2U5XkEyXkFqcGdeQXVyMTA1OTcyNDQ4.jpg" alt="Imagem do série Wednesday">
+                                </a>
+                            </li>
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt0110912/?ref_=nv_sr_srsg_0">
-                                <img src="https://m.media-amazon.com/images/M/MV5BN2RiMTA1ZGQtOTNhYi00MjQyLTk0MzAtMWE1OTM2NWUxNzBkXkEyXkFqcGdeQXVyMTAzMDM4MjM0.jpg" alt="Imagem do filme Pulp Fiction: Tempo de Violência">
-                            </a>
-                        </li>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt12590266/?ref_=hm_fanfav_tt_i_8_pd_fp1">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BMGI5NmI0ZjQtMGRkNC00ZGMzLTllNGYtZDUzYmQ2OWMzN2Y5XkEyXkFqcGdeQXVyMTA3MTI2ODc5.jpg" alt="Imagem do anime Cyberpunk: Mercenários">
+                                </a>
+                            </li>
 
-                        <li>
-                            <a target="_blank" href="https://www.imdb.com/title/tt2861424/?ref_=hm_tpks_tt_i_15_pd_tp1_pbr_ic">
-                                <img src="https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@.jpg" alt="Imagem do desenho Rick and Morty">
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt0110912/?ref_=nv_sr_srsg_0">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BN2RiMTA1ZGQtOTNhYi00MjQyLTk0MzAtMWE1OTM2NWUxNzBkXkEyXkFqcGdeQXVyMTAzMDM4MjM0.jpg" alt="Imagem do filme Pulp Fiction: Tempo de Violência">
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.imdb.com/title/tt2861424/?ref_=hm_tpks_tt_i_15_pd_tp1_pbr_ic">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@.jpg" alt="Imagem do desenho Rick and Morty">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>     
                 </div>
             </section>
 
@@ -130,6 +143,17 @@
             </section>
 
         </main>
+        
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                loop: true
+            });
+        </script>
 
     </body>
 </html>
