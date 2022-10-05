@@ -15,4 +15,3 @@ Projeto usando a base do evento Next Level Week da Rocketseat para criar o List_
 - HTML
 - CSS
 - GIT e Github
-- JavaScript
